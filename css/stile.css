@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 .page-header-block {
   width: 100%;
   max-width: 1200px;
@@ -10,7 +14,10 @@
   height: 25px;
   background-color: red; }
 
-.p {
+p {
+  display: block;
+  width: 100%;
+  max-width: 400px;
   font-size: 15px;
   font-family: lato;
   font-weight: 500;
