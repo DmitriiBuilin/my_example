@@ -1,0 +1,26 @@
+$width: 1200px
+$color: green
+
+
+=txt ($size: 15px, $family: lato, $weight: 500, $txt-color: blue) 
+    font-size: $size
+    font-family: $family
+    font-weight: $weight
+    color: $txt-color
+
+
+.page-header-block
+    width: 100%
+    max-width: $width
+    height: 16px
+    background-color: $color
+
+.color-block 
+    width: 100%
+    max-width: $width/2
+    height: 25px
+    background-color: red
+
+.p
+    @include txt ()
+    

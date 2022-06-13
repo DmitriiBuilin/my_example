@@ -1,0 +1,19 @@
+.page-header-block {
+  width: 100%;
+  max-width: 1200px;
+  height: 16px;
+  background-color: green; }
+
+.color-block {
+  width: 100%;
+  max-width: 600px;
+  height: 25px;
+  background-color: red; }
+
+.p {
+  font-size: 15px;
+  font-family: lato;
+  font-weight: 500;
+  color: blue; }
+
+/*# sourceMappingURL=stile.css.map */
